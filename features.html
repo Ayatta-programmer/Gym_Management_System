@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore FitPulse's powerful features — member management, attendance monitoring, calorie tracking, billing, reports, and role-based access control.">
+    <title>Features - FitPulse Gym Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <div class="logo-icon">FP</div>
+                <span>Fit<span class="brand-accent">Pulse</span></span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="features.html" class="nav-active">Features</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="nav-auth" id="navAuth">
+                <a href="auth/login.php" class="btn btn-ghost">Sign In</a>
+                <a href="auth/register.php" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HERO ========== -->
+    <section class="page-hero page-hero--features">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <div class="hero-badge">
+                <span class="dot"></span>
+                All-In-One Platform
+            </div>
+            <h1>Powerful <span class="highlight">Features</span></h1>
+            <p>Everything you need to manage your gym efficiently. Six integrated modules working together to streamline
+                every aspect of your fitness center.</p>
+        </div>
+    </section>
+
+    <!-- ========== FEATURE OVERVIEW GRID ========== -->
+    <section class="feature-overview">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            <p class="section-subtitle">Six powerful modules designed to simplify every aspect of gym management.</p>
+
+            <div class="feature-overview-grid">
+                <div class="feature-overview-card animate-in">
+                    <div class="feature-overview-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Member Management</h4>
+                    <p>Register, track, and manage all member profiles and plans from one dashboard.</p>
+                </div>
+                <div class="feature-overview-card animate-in">
+                    <div class="feature-overview-icon attendance">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h4>Attendance Monitoring</h4>
+                    <p>Real-time check-in/out tracking with analytics and historical reports.</p>
+                </div>
+                <div class="feature-overview-card animate-in">
+                    <div class="feature-overview-icon calories">
+                        <i class="fas fa-fire-flame-curved"></i>
+                    </div>
+                    <h4>Calorie Tracking</h4>
+                    <p>Log workouts and visualize calorie burn progress over time.</p>
+                </div>
+                <div class="feature-overview-card animate-in">
+                    <div class="feature-overview-icon billing">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h4>Billing & Invoicing</h4>
+                    <p>Automated invoices, M-Pesa payments, and subscription management.</p>
+                </div>
+                <div class="feature-overview-card animate-in">
+                    <div class="feature-overview-icon reports">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>System Reports</h4>
+                    <p>Comprehensive analytics on membership, revenue, and fitness metrics.</p>
+                </div>
+                <div class="feature-overview-card animate-in">
+                    <div class="feature-overview-icon security">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h4>Role-Based Access</h4>
+                    <p>Secure dashboards tailored for Admins, Trainers, and Members.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DETAILED FEATURES ========== -->
+    <section class="features-detail">
+        <div class="container">
+            <h2 class="section-title">In-Depth Look</h2>
+            <p class="section-subtitle">Each module is carefully designed to handle a critical aspect of gym management
+                with ease and precision.</p>
+
+            <!-- Feature 1 -->
+            <div class="feature-detail-row animate-in">
+                <div class="feature-detail-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="feature-detail-content">
+                    <h3>Member Management</h3>
+                    <p>Complete member lifecycle management from registration to renewal. Create detailed member
+                        profiles, assign membership plans, track subscription status, and easily search and filter your
+                        entire member database.</p>
+                    <ul class="feature-checklist">
+                        <li><i class="fas fa-check"></i> Member registration & profile creation</li>
+                        <li><i class="fas fa-check"></i> Membership plan assignment & tracking</li>
+                        <li><i class="fas fa-check"></i> Status management (active, expired, suspended)</li>
+                        <li><i class="fas fa-check"></i> Advanced search & filtering capabilities</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-detail-row animate-in">
+                <div class="feature-detail-icon">
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+                <div class="feature-detail-content">
+                    <h3>Attendance Monitoring</h3>
+                    <p>Keep track of who's in the gym and when. Monitor daily check-ins and check-outs with timestamps,
+                        build attendance history, and generate reports to understand peak hours and member engagement
+                        patterns.</p>
+                    <ul class="feature-checklist">
+                        <li><i class="fas fa-check"></i> Real-time check-in / check-out logging</li>
+                        <li><i class="fas fa-check"></i> Attendance history per member</li>
+                        <li><i class="fas fa-check"></i> Peak hours & trend analysis</li>
+                        <li><i class="fas fa-check"></i> Automated attendance reports</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-detail-row animate-in">
+                <div class="feature-detail-icon">
+                    <i class="fas fa-fire-flame-curved"></i>
+                </div>
+                <div class="feature-detail-content">
+                    <h3>Calories Burnt Tracker</h3>
+                    <p>Help members stay motivated by tracking their calorie expenditure during workouts. Log different
+                        exercise types, durations, and intensity levels to calculate and visualize progress over time.
+                    </p>
+                    <ul class="feature-checklist">
+                        <li><i class="fas fa-check"></i> Workout session logging</li>
+                        <li><i class="fas fa-check"></i> Calorie calculation per exercise type</li>
+                        <li><i class="fas fa-check"></i> Progress visualization with charts</li>
+                        <li><i class="fas fa-check"></i> Weekly & monthly calorie summaries</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="feature-detail-row animate-in">
+                <div class="feature-detail-icon">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <div class="feature-detail-content">
+                    <h3>Billing & Invoicing</h3>
+                    <p>Streamline your gym's financial operations with automated billing. Generate invoices, process
+                        payments via M-Pesa integration, manage subscriptions, and maintain detailed financial records
+                        at a glance.</p>
+                    <ul class="feature-checklist">
+                        <li><i class="fas fa-check"></i> Automated invoice generation</li>
+                        <li><i class="fas fa-check"></i> M-Pesa payment integration</li>
+                        <li><i class="fas fa-check"></i> Subscription management & renewals</li>
+                        <li><i class="fas fa-check"></i> Complete financial record keeping</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 5 -->
+            <div class="feature-detail-row animate-in">
+                <div class="feature-detail-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="feature-detail-content">
+                    <h3>System Reports</h3>
+                    <p>Make data-driven decisions with comprehensive reporting. Get insights into membership growth
+                        trends, revenue analytics, attendance patterns, and fitness progress metrics — all from a single
+                        dashboard.</p>
+                    <ul class="feature-checklist">
+                        <li><i class="fas fa-check"></i> Membership growth reports</li>
+                        <li><i class="fas fa-check"></i> Revenue & financial analytics</li>
+                        <li><i class="fas fa-check"></i> Attendance trend reports</li>
+                        <li><i class="fas fa-check"></i> Exportable report formats</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 6 -->
+            <div class="feature-detail-row animate-in">
+                <div class="feature-detail-icon">
+                    <i class="fas fa-shield-halved"></i>
+                </div>
+                <div class="feature-detail-content">
+                    <h3>Role-Based Access Control</h3>
+                    <p>Security at every level. Each user gets a dedicated dashboard tailored to their role — Admins
+                        manage the entire system, Trainers handle member training, and Members access their personal
+                        fitness data.</p>
+                    <ul class="feature-checklist">
+                        <li><i class="fas fa-check"></i> Admin dashboard with full control</li>
+                        <li><i class="fas fa-check"></i> Trainer dashboard for member oversight</li>
+                        <li><i class="fas fa-check"></i> Member dashboard for personal tracking</li>
+                        <li><i class="fas fa-check"></i> Secure authentication & session management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Getting started with FitPulse is simple. Three easy steps to transform your gym
+                management.</p>
+
+            <div class="steps-grid">
+                <div class="step-card animate-in">
+                    <div class="step-number-big">01</div>
+                    <div class="step-icon-wrap">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Sign Up</h3>
+                    <p>Create your account in minutes. Choose your role — Admin, Trainer, or Member — and get instant
+                        access to your personalized dashboard.</p>
+                </div>
+
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="step-card animate-in">
+                    <div class="step-number-big">02</div>
+                    <div class="step-icon-wrap">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Configure & Track</h3>
+                    <p>Set up membership plans, configure billing, and start tracking attendance and workouts.
+                        Everything is intuitive and easy to customize.</p>
+                </div>
+
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="step-card animate-in">
+                    <div class="step-number-big">03</div>
+                    <div class="step-icon-wrap">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Achieve Results</h3>
+                    <p>Watch your gym thrive with organized operations, engaged members, and data-driven insights that
+                        help you grow your fitness business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section class="page-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience the Power?</h2>
+                <p>Start your free trial today and see why hundreds of gyms trust FitPulse for their management needs.
+                </p>
+                <div class="cta-buttons">
+                    <a href="auth/register.php" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> Start Free Trial
+                    </a>
+                    <a href="contact.html" class="btn btn-outline btn-lg">
+                        <i class="fas fa-comments"></i> Talk to Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="navbar-brand">
+                        <div class="logo-icon">FP</div>
+                        <span>Fit<span class="brand-accent">Pulse</span></span>
+                    </a>
+                    <p>Your ultimate fitness management solution. Streamline gym operations and empower members to reach
+                        their goals.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="features.html">Features</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Modules</h4>
+                    <a href="features.html">Member Management</a>
+                    <a href="features.html">Attendance</a>
+                    <a href="features.html">Billing</a>
+                    <a href="features.html">Reports</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:info@fitpulse.com"><i class="fas fa-envelope"></i> info@fitpulse.com</a>
+                    <a href="tel:+254700000000"><i class="fas fa-phone"></i> +254 700 000000</a>
+                    <a href="contact.html"><i class="fas fa-location-dot"></i> Nairobi, Kenya</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 FitPulse Gym Management System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
